@@ -7,6 +7,9 @@
         <title>Inua Technologies</title>
 
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/76205c1026.js" crossorigin="anonymous"></script>
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -68,7 +71,7 @@
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header1">
-            <h1>Inua Technologies</h1>
+            <h1>Inua Technologies conference 2024</h1>
         </div>      
         <div class="header2">
             <p>With you in every step of the way</p> 
@@ -84,48 +87,23 @@
 <div id="about">
     <div class="container">
         <div class="row">
-            <div class="about-col-1">
-                <img src="images/M4">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>Throughout my career, I have successfully developed and launched numerous mobile apps using Flutter, catering to diverse client needs.
-                    As a data scientist, I have worked on projects that involved data analysis, predictive modeling, and data-driven insights.
-                    My expertise in machine learning has allowed me to create predictive models and implement data-driven solutions that have made a significant impact.
-                    I have also cultivated a strong professional network, connecting with experts and professionals in various industries.</p>
+        <div class="about-col-2">
+    <h1 class="sub-title">About</h1>
+    <i class="far fa-calendar-alt"></i>
+    <p>Date and Time</p>
+    <p>Date: Apr 28th - Apr 30th, 2024</p>    
+    <p>Time: 8:00 a.m. - 5:00 p.m. Africa/Nairobi</p>
+    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Event+Name&dates=20240428T080000Z/20240430T170000Z&details=Event+Details&location=Radisson+Blu%2C+Upper+Hill%2C+Nairobi" target="_blank">Add to Calendar</a>
+</div>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Web App Development</span><br>Laravel</li>
-                            <li><span>Data Science</span><br>ML and Neural networks</li>
-                            <li><span>Mobile App</span><br>Building Android apps</li>
-                            <li><span>Figma</span><br>Building Apps User Interfaces</li>
-                            <li><span>CCNA 1</span><br>Configure a network with security best practices.</li>
-                            <li><span>CCNA 2</span><br>Configure switch security to mitigate LAN attacks.</li>
-                            <li><span>CCNA 3</span><br>Implement standard IPV4 ACLs to filter traffic and secure administrative access.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2023</span><br>Attachment  - National Museum of Kenya</li>
-                            <li><span>2020</span><br>Cyber Manager - Bidii Cyber</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2023</span><br>Moringa School - Data Science and Machine Learning</li>
-                            <li><span>2018 - 2022</span><br>Technical University of Kenya - Bachelors in Communication and Computer Networks</li>
-                            <li><span>2020 - 2021</span><br>Jomo Kenyatta University of Agriculture and Technology - CISCO Networking(CCNA 1, 2, 3)</li>
-                        </ul>
-                    </div>
+            <div class="location">
+                <a href="https://www.google.com/maps?q=-1.2942678289249376,36.78725545133079" target="_blank">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location <br> Technoprise offices, ICPAK Building, Upper Hill, Nairobi</p>
+                </a>
             </div>
+
         </div>
-
     </div>
 </div>
     
@@ -244,7 +222,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright &copy; Made by MuchiriKinyua. All rights reserved.</p>
+        <p>Copyright &copy; Made with <i class="fas fa-heart"></i> by MuchiriKinyua. All rights reserved.</p>
     </div>
 </div>
                     </main>

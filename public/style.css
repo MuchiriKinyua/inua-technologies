@@ -43,10 +43,11 @@ body{
     margin-left: 400px;
 }
 .header1{
-    font-size: 100px;
+    font-size: 60px;
 }
 .header2{
-    margin-left: 350px;
+    font-size: 30px;
+    margin-left: 250px;
 }
 
 .btn1:hover {
@@ -137,13 +138,6 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
-    flex-basis: 35%;
-}
-.about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
-}
 .about-col-2{
     flex-basis: 60%;
 }
@@ -152,43 +146,9 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
-.tab-titles{
-    display: flex;
-    margin: 20px 0 40px;
-}
-.tab-links{
+.location{
     margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-}
-.tab-links::after{
-    content: "";
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
-.tab-links.active-link::after{
-    width: 50%;
-}
-.tab-contents ul li{
-    list-style: none;
-    margin: 10px 0;
-}
-.tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
-}
-.tab-contents{
-    display: none;
-}
-.tab-contents.active-tab{
-    display: block;
+    margin-top: 10px;
 }
 
 /*services*/
@@ -322,19 +282,8 @@ nav ul li a:hover::after{
 
 /*contact*/
 
-.contact-left{
-    flex-basis: 35%;
-}
 .contact-right{
     flex-basis: 60%;
-}
-.contact-left p{
-    margin-top: 30px; 
-}
-.contact-left p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
 }
 .social-icons{
     margin-top: 30px;
@@ -407,93 +356,3 @@ form .btn2{
     color: red;
 }
 
-/*css for small screens*/
-
-nav .fas{
-    display: none;
-}
-
-@media only screen and (max-width: 600px){
-    #header{
-        width: 500px;
-        height: 95vh;
-        background-image: url(images/M6.png);
-    }
-    .LOGO{
-        width: 500px;
-    }
-    .header-text{
-        margin-top: 35px;
-        font-size: 8px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
-    nav .fas{
-        display: block;
-        font-size: 25px;
-        position: absolute;
-        top: 100px;
-        right: 25px; /* Change 'left' to 'right' */
-        cursor: pointer;
-    }
-    .custom-close-icon{
-        font-size: 25px;
-        position: absolute;
-        top: 10px; /* Adjust margin-top to top and remove 'display' property */
-        right: 25px;
-        cursor: pointer;
-        color: #fff; /* You can set the color here */
-        z-index: 3; /* Ensure it's above other elements */
-    }    
-    nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    .mobile-menu-opened .mobile-menu-icon {
-        display: none;
-    }
-    .mobile-menu-closed .mobile-menu-icon {
-        display: block;
-    }
-    body.mobile-menu-opened {
-        overflow: hidden;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fas{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .sub-title{
-        font-size: 40px;
-    }
-    .about-col-1, .about-col-2{
-        flex-basis: 80%;
-    }
-    .about-col-1{
-        margin-bottom: 30px;
-    }
-    .contact-left, .contact-right{
-         flex-basis: 100%;
-    }
-    .copyright{
-        font-size: 14px;
-    }
-}
-#msg{
-    color: #61b752;
-    margin-top: -30px;
-    display: block;
-}
