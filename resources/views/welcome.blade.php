@@ -105,7 +105,7 @@
     </div>
 </div>
     
-<!--Services-->
+<!--Speakers-->
 <div id="speakers">
     <div class="container">
         <h1 class="sub-title">Speakers</h1>
@@ -133,54 +133,28 @@
 </div>
 
 
-<!--Portfolio-->
+<!--Agenda-->
 
 <div id="agenda">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/mmaziwa.png">
-                <div class="layer">
-                    <h3>Mmaziwa App</h3>
-                    <p>This app uses M-Pesa to help farmers sell their milk and store their transactions</p>
-                    <div class="parent-container">
-                        <a href="https://github.com/MuchiriKinyua/Mmaziwa" class="github-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> GitHub Repository
-                        </a>                    
-                    </div>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/NLP.jpeg">
-                <div class="layer">
-                    <h3>NLP PROJECT</h3>
-                    <p>Machine Learning Data Science Project that analyzes the sentiments on crowd-flower brands and products</p>
-                    <div class="parent-container">
-                        <div class="parent-container">
-                            <a href="https://github.com/MuchiriKinyua/Mmaziwa" class="github-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> GitHub Repository
-                            </a>
-                        </div>                        
-                        </a>                    
-                    </div>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/2hand2.png">
-                <div class="layer">
-                    <h3>UIs</h3>
-                    <p>Different UI designs for different app projects using Figma</p>
-                    <div class="parent-container">
-                        <a href="https://www.figma.com/file/s4j9ZoDeI5gv3Cf9HisYFh/TUSOME--E-LEARNING-APP?type=design&node-id=0-1&mode=design&t=n18HmLNJlMvUGtEc-0" class="github-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Figma
-                        </a> 
-                    </div>
-                </div>
-            </div>
+        <h1 class="sub-title">Agenda</h1>
+        <div class="agenda1">
+            <p>The agenda will focus on how IT technology can reach people in rural areas can have a significant impact on improving access to essential services, education, healthcare, and economic opportunities. Here's a suggested agenda based on your focus: </br>
+
+Agenda: Leveraging IT Technology for Rural Development </br>
+
+1. Introduction </br>
+Welcome and Opening Remarks </br>
+Overview of the Agenda </br>
+2. Understanding Rural Challenges </br>
+Keynote Address: The Unique Challenges of Rural Communities </br>
+Panel Discussion: Perspectives from Rural Development Experts </br>
+Q&A Session </br>
+3. Role of IT Technology in Rural Development </br>
+Presentation: The Transformative Potential of IT in Rural Areas </br>
+Case Studies: Successful IT Initiatives in Rural Development </br>
+Interactive Session: Brainstorming Innovative Solutions</p>
         </div>
-        <a href="https://github.com/MuchiriKinyua" class="btn3" target="_blank">See More
-        </a>
     </div>
 </div>
 
@@ -190,6 +164,9 @@
     <div class="container">
         <div class="row">
             <div class="contact-right">
+                <div class="contact">
+                    <p>Contacts</p>
+                </div>
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
