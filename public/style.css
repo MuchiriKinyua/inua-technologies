@@ -152,44 +152,62 @@ nav ul li a:hover::after{
 }
 
 /*services*/
-#speakers{
+#speakers {
     padding: 30px 0;
 }
-.services-list{
+
+.services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
+
+.speaker {
     background: #262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
+    position: relative; /* Added */
+    overflow: hidden; /* Added */
 }
-.services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
+
+.speaker-info {
+    color: #fff;
 }
-.services-list div h2{
+
+.speaker-info h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
     color: #FFFF00;
 }
-.services-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
+
+.speaker-info p {
     margin-top: 20px;
-    display: inline-block;
 }
-.services-list div:hover{
+
+.speaker:hover {
     background: #ff004f;
     transform: translateY(-10px);
 }
+
+.speaker::before {
+    content: "";
+    background-image: url('images/M6.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; 
+}
+
 
 /*Portfolio*/
 

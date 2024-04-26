@@ -66,12 +66,10 @@
                 <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times close-icon custom-close-icon" onclick="closemenu()"></i>
             </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header1">
-            <h1>Inua Technologies conference 2024</h1>
+            <h1>Inua Technologies Conference 2024</h1>
         </div>      
         <div class="header2">
             <p>With you in every step of the way</p> 
@@ -110,29 +108,30 @@
 <!--Services-->
 <div id="speakers">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">Speakers</h1>
         <div class="services-list">
-            <div>
-                <i class="fas fa-chart-line"></i>
-                <h2>Data Science</h2>
-                <p>Data Science and Machine Learning using python</p>
-                <a href="#">Learn more</a>
+            <div class="speaker">
+                <div class="speaker-info">
+                    <h2>Muchiri Kinyua</h2>
+                    <p>Founder of Inua Technologies</p>
+                </div>
             </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>UI and Web Development</h2>
-                <p>I create web designs using figma for web apps</p>
-                <a href="#">Learn more</a>
+            <div class="speaker">
+                <div class="speaker-info">
+                    <h2>Alex Kinyua</h2>
+                    <p>CEO of Inua Technologies</p>
+                </div>
             </div>
-            <div>
-                <i class="fas fa-network-wired"></i>
-                <h2>Networking</h2>
-                <p>I can install and manage both office hardware e.g routers and switches and softwares e.g Operating Systems, Microsoft office</p>
-                <a href="#">Learn more</a>
+            <div class="speaker">
+                <div class="speaker-info">
+                    <h2>Florence</h2>
+                    <p>Director of Inua Technologies</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <!--Portfolio-->
 
