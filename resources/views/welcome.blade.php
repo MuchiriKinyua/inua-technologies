@@ -35,7 +35,7 @@
                                 @else
                                     <a
                                         href="{{ route('login') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                                        class="btn"
                                     >
                                         Log in
                                     </a>
@@ -43,7 +43,7 @@
                                     @if (Route::has('register'))
                                         <a
                                             href="{{ route('register') }}"
-                                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                                            class="btn1"
                                         >
                                             Register
                                         </a>
@@ -57,27 +57,21 @@
                 <div id="header" class="move-left">
     <div class="container">
         <nav>
-            <img src="images/LOGO.png" class="LOGO">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Speakers</a></li>
+                <li><a href="#portfolio">Agenda</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times close-icon custom-close-icon" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-            <h1>Hi, I'm <span>Muchiri Kinyua</span></h1>
-            <p>Networker</p> 
-            <p>Data Scientist</p> 
-            <p>Web App Designer</p></br>
+            <h1>Inua Technologies</h1>
+            <p>With you in every step</p> 
             </br>
-            <img src="images/CCNA1.png" class = "ccna1">
-            <img src="images/CCNA2.png" class = "ccna1"> </br>
-            <img src="images/CCNA3.png" class = "ccna1"> 
-            <img src="images/AIM.png" class = "python">
+            <img src="images/images.jpeg" class = "ccna1">
         </div>      
     </div>
 </div>
@@ -205,7 +199,7 @@
                 </div>
             </div>
         </div>
-        <a href="https://github.com/MuchiriKinyua" class="btn" target="_blank">See More
+        <a href="https://github.com/MuchiriKinyua" class="btn3" target="_blank">See More
         </a>
     </div>
 </div>
@@ -224,15 +218,15 @@
                     <a href="https://www.facebook.com/nicholas.muchiri.714/"><i class="fab fa-facebook"></i></a>
                     <a href="https://twitter.com/Nichola62959453"><i class="fa-brands fa-square-x-twitter"></i></a>
                 </div>
-                <a href="images/KINYUA NICHOLAS MUCHIRI CV.pdf" download class="btn btn2">Download CV</a><br>
-                <a href="images/KINYUA NICHOLAS MUCHIRI RESUME.pdf" download class="btn btn2" style="margin-top: 5px;">Download resume</a>
+                <a href="images/KINYUA NICHOLAS MUCHIRI CV.pdf" download class="btn4">Download CV</a><br>
+                <a href="images/KINYUA NICHOLAS MUCHIRI RESUME.pdf" download class="btn5" style="margin-top: 5px;">Download resume</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="submit" class="btn6">Submit</button>
                 </form>
                 <span id="msg"></span>
             </div>
