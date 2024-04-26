@@ -56,23 +56,26 @@
                     <main class="mt-6">
                 <div id="header" class="move-left">
     <div class="container">
-        <nav>
+        <nav class="header">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Speakers</a></li>
-                <li><a href="#portfolio">Agenda</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times close-icon custom-close-icon" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div class="header-text">
+        <div class="header1">
             <h1>Inua Technologies</h1>
-            <p>With you in every step</p> 
-            </br>
-            <img src="images/images.jpeg" class = "ccna1">
         </div>      
+        <div class="header2">
+            <p>With you in every step of the way</p> 
+        </div>
+        <div>
+            <img src="images/images.jpeg" class = "img1">
+        </div>
     </div>
 </div>
 
@@ -127,7 +130,7 @@
 </div>
     
 <!--Services-->
-<div id="services">
+<div id="speakers">
     <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
@@ -155,7 +158,7 @@
 
 <!--Portfolio-->
 
-<div id="portfolio">
+<div id="agenda">
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
@@ -209,31 +212,39 @@
 <div id="contact">
     <div class="container">
         <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i> nicholas.kinyua@student.moringaschool.com</p>
-                <p><i class="fas fa-phone-square-alt"></i> 0713030677</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/muchiri-kinyua-9b702620a/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/nicholas.muchiri.714/"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/Nichola62959453"><i class="fa-brands fa-square-x-twitter"></i></a>
-                </div>
-                <a href="images/KINYUA NICHOLAS MUCHIRI CV.pdf" download class="btn4">Download CV</a><br>
-                <a href="images/KINYUA NICHOLAS MUCHIRI RESUME.pdf" download class="btn5" style="margin-top: 5px;">Download resume</a>
-            </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn6">Submit</button>
                 </form>
                 <span id="msg"></span>
+                
+                <button type="submit" class="btn6">Submit</button>
+  
+                <script>
+                    const scriptURL = "https://script.google.com/macros/s/AKfycbzPUegb04bGBLv9HO-hyPI6lc7NbT-d7HlIlMT9Pt7YfvyXZhcKn-M7-ADep7tj2Zru6A/exec"
+                    const form = document.forms['submit-to-google-sheet']
+                    const msg = document.getElementById("msg")
+  
+                    form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => {
+                            msg.innerHTML = "Message sent successfully"
+                            setTimeout(function(){
+                                msg.innerHTML = ""
+                            }, 5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright &copy; Made with <i class="fas fa-heart"></i> by MuchiriKinyua. All rights reserved.</p>
+        <p>Copyright &copy; Made by MuchiriKinyua. All rights reserved.</p>
     </div>
 </div>
                     </main>
