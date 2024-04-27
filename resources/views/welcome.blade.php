@@ -139,20 +139,20 @@
     <div class="container">
         <h1 class="sub-title">Agenda</h1>
         <div class="agenda1">
-            <p>The agenda will focus on how IT technology can reach people in rural areas can have a significant impact on improving access to essential services, education, healthcare, and economic opportunities. Here's a suggested agenda based on your focus: </br>
+            <p>The agenda will focus on how IT technology can be used for people living with disabilities to have a significant impact on improving access to essential services, education, healthcare, and economic opportunities. Here's a suggested agenda based on your focus: </br>
 
 Agenda: Leveraging IT Technology for Rural Development </br>
 
 1. Introduction </br>
 Welcome and Opening Remarks </br>
 Overview of the Agenda </br>
-2. Understanding Rural Challenges </br>
-Keynote Address: The Unique Challenges of Rural Communities </br>
+2. Understanding PWD Challenges </br>
+Keynote Address: The Unique Challenges of disabled Communities </br>
 Panel Discussion: Perspectives from Rural Development Experts </br>
 Q&A Session </br>
-3. Role of IT Technology in Rural Development </br>
-Presentation: The Transformative Potential of IT in Rural Areas </br>
-Case Studies: Successful IT Initiatives in Rural Development </br>
+3. Role of IT Technology in PWD Development </br>
+Presentation: The Transformative Potential of PWD</br>
+Case Studies: Successful IT Initiatives in PWD Development </br>
 Interactive Session: Brainstorming Innovative Solutions</p>
         </div>
     </div>
