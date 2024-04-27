@@ -1,66 +1,38 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Inua Technologies
+![images](https://github.com/MuchiriKinyua/inua-technologies/assets/113877377/e192db21-b4bf-4f2b-8837-7064148633ba)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 1. Problem Statement
+Despite advancements in technology, a significant portion of the disabled community still faces barriers to accessing and utilizing IT technology effectively. This lack of accessibility limits their opportunities for education, employment, social interaction, and overall independence. Many existing IT solutions are not designed with the diverse needs of disabled individuals in mind, leading to exclusion and marginalization. Inua Technologies recognizes the urgent need to bridge this gap and create inclusive IT solutions that empower the disabled community to fully participate in society and lead fulfilling lives. Through innovative approaches and collaboration, we aim to address the challenges faced by disabled individuals and foster a more inclusive and equitable digital environment.
+## 2. Tools
+Laravel </br>
+Composer </br>
+HTML </br>
+CSS </br>
+PHP 8.3 </br>
+Xampp </br>
+Phpmyadmin </br>
+Git </br>
+Mailtrap
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 3. Objectives
+### Promoting Inclusivity: 
+Inua Technologies aims to promote inclusivity by organizing events specifically tailored to the needs and interests of disabled individuals. By providing a platform where everyone feels welcome and valued, they contribute to building a more inclusive society.
+### Raising Awareness: 
+The event serves as an opportunity to raise awareness about the challenges faced by disabled individuals, as well as the importance of accessibility and inclusion. Through educational sessions, discussions, and presentations, attendees can gain a deeper understanding of disability rights and issues.
+### Facilitating Networking: 
+Inua Technologies seeks to facilitate networking and collaboration among disabled individuals, advocates, organizations, and policymakers. By bringing together diverse stakeholders, they create opportunities for networking, knowledge-sharing, and partnership-building.
+## 4. Methodology
+This were the steps followed: </br>
+Planning </br>
+Analysis </br>
+Prototyping (Testing) </br>
+Implementation </br>
+Mainatainance
+## 5. Conclusions
+### Community Engagement: 
+Through this event the users will not only consume information but also contribute their insights and experiences, creating a sense of belonging and collaboration.
+### Technology for Social Good: 
+The application exemplifies the use of technology for social good, leveraging digital tools to address pressing social issues and promote inclusivity. It demonstrates how technology can be harnessed to create positive social impact and improve the lives of marginalized communities.
+## 6. Recommendations
+1. Integrate MPesa daraja API if any payments are needed.
+2. Implement a feedback mechanism to gather insights from attendees about their experience, suggestions for improvement, and areas where they felt additional support or resources are needed.
